@@ -79,8 +79,7 @@ try{
 	  	}
     setVisible(false);
   }
-  
-  //\/\/\/\/\/\/Azmn\/\/\/\/\/\/\/\///
+  // I //
   
   public static void main(String[] args) {	  
 	  Splashf splash = new Splashf();
@@ -90,7 +89,7 @@ try{
 						try {
 							Junex frame = new Junex();
 							frame.setVisible(true);
-							File directory = new File("D:\\FractalWallpaper\\");
+							File directory = new File("C:\\FractalWallpaper\\");
 						    if (! directory.exists()){
 						        directory.mkdir();
 						    }
